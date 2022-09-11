@@ -2,6 +2,9 @@
   "name": "amazon",
   "version": "0.1.0",
   "private": true,
+  "engines":{
+"node": "6.11.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
@@ -12,7 +15,6 @@
     "history": "^4.10.1",
     "moment": "^2.29.3",
     "react": "^18.0.0",
-    "react-currency-format": "^1.1.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.1",
     "react-router-dom": "^5.2.0",
@@ -45,8 +47,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "source-map-loader": "^3.0.1"
   }
+ 
 }
