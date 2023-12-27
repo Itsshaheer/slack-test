@@ -14,3 +14,14 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push Docker Image
+        uses: docker/build-action@v5
+        with: 
+          context: .
+          file: ./Dockerfile.reactUi
+          push: true
+          tags: test tag
+          labels: labels
+          
+          
